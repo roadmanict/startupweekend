@@ -1,0 +1,8 @@
+[openstack]
+localhost ansible_connection=local ansible_python_interpreter=/usr/local/bin/python env_name=startup host_name=startup.roadmanict.nl floating_ip=185.3.210.203
+
+[instances]
+startup.roadmanict.nl
+
+[database]
+startup.roadmanict.nl

@@ -1,0 +1,5 @@
+---
+- hosts: database
+  roles:
+    - { name: common, tags: common }
+    - { name: database, tags: database }
