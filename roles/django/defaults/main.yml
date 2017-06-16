@@ -1,5 +1,5 @@
 ---
-django_user: "vogelsangh_{{ project_env }}"
+django_user: "{{ project_name }}_{{ project_env }}"
 django_db_name: "{{ project_env }}_{{ project_name }}"
 django_db_user: "{{ project_env }}_{{ project_name }}"
 django_db_password: "{{ vault_django_db_password }}"

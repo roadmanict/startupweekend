@@ -3,3 +3,7 @@
   roles:
     - { name: common, tags: common }
     - { name: database, tags: database }
+- hosts: startupweekend
+  roles:
+    - { name: common, tags: common }
+    - { name: django, tags: startupweekend }

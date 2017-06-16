@@ -7,5 +7,5 @@
   become: yes
   become_user: "{{ django_user }}"
   environment:
-    DJANGO_SETTINGS_MODULE: vogelsangh.settings.production
+    DJANGO_SETTINGS_MODULE: "{{ project_name }}.settings.production"
 - include: enable.yml
